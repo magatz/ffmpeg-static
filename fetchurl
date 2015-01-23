@@ -11,7 +11,8 @@ set +u
 # ENV vars, inherited from external
 CACHE=${CACHE:-1}
 UNPACK=${UNPACK:-1}
-VERBOSE=${VERBOSE:-0}
+#VERBOSE=${VERBOSE:-0}
+VERBOSE=1
 
 EXTRACT_DIR=${EXTRACT_DIR:-`pwd`}
 if [ -n "$HOME" ]; then
